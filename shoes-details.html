@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sripts/script.js"></script>
+    <script src="scripts/cart.js"></script>
+    <title>Shoe Details</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color:moccasin">
+    <div id="pageHeader"></div>
+    <div class="row">
+        <div class="col-md-7">
+            <div style="margin-left:20px;">
+                <h1 style="margin-top:40px;margin-left:300px;">SHOES</h1><br>
+                <h3>&#128095;Casual shoes</h3><br />
+                <ul list-style-type="circle">
+                    <li>Features a full wrap canvas print</li>
+                    <li>Elastic stretch V for easy on-and-off use</li>
+                    <li>Soft textile lining with lightweight construction for maximum comfort</li>
+                    <li>High quality canvas construction for everyday use and durable EVA outsole for exceptional
+                        traction</li>
+                </ul>
+                <br />
+                <h3>&#128095;Running shoes</h3><br />
+                <ul list-style-type="circle">
+                    <li>Features a full front-toe canvas print</li>
+                    <li>Elastic stretch in-step for easy on-and-off use</li>
+                    <li>Soft textile lining with lightweight construction for maximum comfort</li>
+                    <li>High-quality canvas construction for everyday use and durable EVA outsole for exceptional
+                        traction</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="col-md-5">
+            <div style="margin-left:150px;">
+                <img style="margin-top:10px;" src="images/shoes.png" height=300px weight=250px alt="shoes">
+                <h4><b>&emsp;&emsp;Rs.<span id="shoeprice">3000</span>/- only</b></h4>
+                <!-- <form> -->
+                    <label><b>Select size : </b></label>
+                    <label><input type="radio" name="shoesize" value="6">&nbsp;6</label>
+                    <label><input type="radio" name="shoesize" value="7">&nbsp;7</label>
+                    <label><input type="radio" name="shoesize" value="8">&nbsp;8</label>
+                    <label><input type="radio" name="shoesize" value="9">&nbsp;9</label>
+                    <label><input type="radio" name="shoesize" value="10">&nbsp;10</label><br>
+                    <label><b>Select color : </b></label>
+                    <select id="shoecolor">
+                        <option value="none">--Select option--</option>
+                        <option value="White">White</option>
+                        <option value="Black">Blue</option>
+                    </select><br /></br><br />
+                    <button style="margin-left:90px; margin-top:50px;" onclick="submitShoes()">ADD TO
+                        CART🛒</button>
+                <!-- </form> -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

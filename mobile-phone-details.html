@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script.js"></script>
+    <script src="scripts/cart.js"></script>
+    <title>Select mobilephone</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color:moccasin">
+    <div id="pageHeader"></div>
+    <div class="row">
+        <div class="col-md-7">
+            <div style="margin-left:20px;">
+                <h1 style="margin-top:40px;margin-left:200px;">SAMSUNG A30</h1><br>
+                <span>&#128241</span>
+                <span>The Samsung Galaxy A30 specifications include a 6.4-inch display with 1080 x 2340 pixels
+                    resolution,<br> Exynos 7904 processor, 4 GB RAM and 16 MP dual camera setup on the back. </span>
+                <br><br /><span>&#128241</span>
+                <span>The phone is powered by a 4000 mAh battery. </span>
+                <br><br /><span>&#128241</span>
+                <span>A full 6.4 inches of the edge-to-edge Infinity-U Display means you will be able to immerse
+                    yourself in your favorite games and videos. </span>
+                <br><br /><span>&#128241</span>
+                <span>Galaxy A30 measures at a slim but durable 7.7 mm, with a glossy finish that is smooth to the
+                    touch. <br>Turn it over and see the discreetly placed fingerprint sensor and 3D glasstic back that
+                    complete Galaxy A3's sleek, premium design.</span>
+                <br><br /><span>&#128241</span>
+                <span>Galaxy A30's Dual camera has the 16MP (F1.7) and 123-degree Ultra Wide Camera to fit more of your
+                    world in a single shot — all with a field of vision like the human eye. </span>
+                <br><br /><span>&#128241</span>
+                <span>The device is working on an Android 9.0 (Pie) with a Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz
+                    Cortex-A53) processor.</span>
+            </div>
+        </div>
+
+
+        <div class="col-md-5">
+            <div style="margin-left:150px;">
+                <img style="margin-top:20px;" src="images/mobilephone.jpg" height=260px weight=200px
+                    alt="mobilephone"><br /><br />
+                <h4><b>&emsp;Rs.<span id="mobileprice">15000</span>/- only</b></h4>
+                <label><b>Select color : </b></label>
+                <select id="color">
+                    <option value="none">--Select option--</option>
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Black">Black</option>
+                </select><br /></br><br />
+                <button class="btn btn-success" onclick="submitMobile()" style="margin-left:90px; margin-top:80px;">ADD TO CART🛒</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
